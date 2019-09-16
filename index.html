@@ -2,20 +2,12 @@
 # Have penguins taken over the world yet?
 penguins_have_taken_over: false
 title: Penguin Information Page
+layout: default
 ---
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ page.title }}</title>
-    </head>
-    <body>
-        {% if page.penguins_have_taken_over %}
-        <h1>Penguins rule</h1>
-        <p>You will be assimilated. Noot Noot.</p>
-        {% else %}
-        <h1>{{ "Penguins are harmless" | upcase }}</h1>
-        <p>Penguins are cute. Do not interfere with them. Do not hinder their reconnais.... um... waddling, cute-being thing.</p>
-        {% endif %}
-    </body>
-</html>
+{% if page.penguins_have_taken_over %}
+    <h1>Penguins rule</h1>
+    <p>You will be assimilated. Noot Noot.</p>
+{% else %}
+    <h1>{{ "Penguins are harmless" | upcase }}</h1>
+    <p>Penguins are cute. Do not interfere with them. Do not hinder their reconnais.... um... waddling, cute-being thing.</p>
+{% endif %}
