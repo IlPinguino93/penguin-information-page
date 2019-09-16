@@ -1,4 +1,6 @@
 - name: Home
   link: /
+- name: Penguin Attacks
+  link: /attack.html
 - name: About
   link: /about.html
