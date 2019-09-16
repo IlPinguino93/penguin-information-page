@@ -1,5 +1,4 @@
 ---
-layout: post
 author: penguin_admin
 title: The penguins' quest for world domination
 ---

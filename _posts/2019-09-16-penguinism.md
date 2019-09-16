@@ -1,5 +1,4 @@
 ---
-layout: post
 author: penguin
 ---
 Penguinism is the idea that the world should be run by penguins. This marginalized political belief is held by 0.01 % of humanity and 99.9 % of penguins (allowing for a 0.1 % margin of error each). 
