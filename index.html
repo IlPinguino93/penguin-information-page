@@ -1,12 +1,13 @@
 ---
 # Have penguins taken over the world yet?
 penguins_have_taken_over: false
+title: Penguin Information Page
 ---
 <!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Home</title>
+        <title>{{ page.title }}</title>
     </head>
     <body>
         {% if page.penguins_have_taken_over %}
